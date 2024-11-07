@@ -1,0 +1,65 @@
+@import url(fonts.css);
+
+.footer{
+    background: rgb(0, 0, 0);
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 65px;
+}
+
+
+
+.footer-item__title{
+    margin-top: 40px;
+    color: rgb(255, 255, 255);
+font-family: 'RR';
+font-size: 40px;
+line-height: 46px;
+text-align: center;
+
+}
+
+.footer-item__info{
+    display: flex;
+    gap: 150px;
+    margin-bottom: 55px;
+}
+
+
+.footer-icon__onebox{
+    font-size: 35px;
+    color: rgb(38, 97, 152);
+}
+
+.footer-icon__twobox{
+    font-size: 35px;
+    color: rgb(255, 255, 255); 
+}
+
+.footer-icon__threebox{
+    font-size: 35px;
+color: rgb(115, 179, 255);
+}
+
+.footer-icon__fourbox{
+    font-size: 35px;
+    color: rgb(255, 255, 255);  
+}
+
+.footer-icon__fivebox{
+    font-size: 35px;
+    color: rgb(115, 178, 88); 
+   
+}
+
+@media (max-width:765px) {
+    .footer-item__info{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }   
+}
